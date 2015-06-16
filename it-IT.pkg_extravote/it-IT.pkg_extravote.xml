@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="file" version="3.0" method="upgrade">
+	<name>it-IT.pkg_extravote</name>
+	<tag>it-IT</tag>
+	<version>2.5.8</version>
+	<creationDate>16.06.2015</creationDate>
+	<author>Squall77it</author>		
+	<authorEmail>squall77it@gmail.com</authorEmail>
+	<authorUrl>https://github.com/squall77it/J-Extensions-Translation</authorUrl>
+	<copyright>(C) 2015 Squall77it</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU GPL v2</license>
+	<description>Traduzione Italiana per ExtraVote</description>
+	<fileset>
+		<files folder="plg_extravote_content/admin/it-IT" target="administrator/language/it-IT">
+			<filename>it-IT.plg_content_extravote.ini</filename>
+			<filename>it-IT.plg_content_extravote.sys.ini</filename>
+		</files>
+		<files folder="plg_extravote_ajax/admin/it-IT" target="administrator/language/it-IT">
+			<filename>it-IT.plg_ajax_extravote.ini</filename>
+			<filename>it-IT.plg_ajax_extravote.sys.ini</filename>
+		</files>
+	</fileset>
+</extension>
